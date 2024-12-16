@@ -1,32 +1,31 @@
 canvas {
-    display: block;
-    margin: 0 auto;
-    background-color: #000; /* Czarny kolor tła planszy */
-  }
-  
-  #controls {
-    text-align: center;
-    margin-top: 10px;
-  }
-  
-  button {
-    margin: 5px;
-    padding: 10px;
-    background-color: #4CAF50; /* Zielony kolor przycisków */
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-  }
-  
-  button:hover {
-    background-color: #45a049; /* Lekko ciemniejszy odcień zieleni po najechaniu */
-  }
-  
-  #score {
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff; /* Biały kolor dla punktów */
-  }
-  
+  display: block;
+  margin: 0 auto;
+  background-color: #000; /* Czarny kolor tła planszy */
+}
+
+#controls {
+  text-align: center;
+  margin-top: 10px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #4CAF50; /* Zielony kolor przycisków */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049; /* Lekko ciemniejszy odcień zieleni po najechaniu */
+}
+
+#score {
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff; /* Biały kolor dla punktów */
+}
