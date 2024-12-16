@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ping Pong</title>
+  <style>
+    canvas {
+      display: block;
+      margin: 0 auto;
+      background-color: #000;
+    }
+    #controls {
+      text-align: center;
+      margin-top: 10px;
+    }
+    button {
+      margin: 5px;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="gameCanvas" width="600" height="400"></canvas>
+<div id="controls">
+  <button id="startGame">Start</button>
+  <button id="addBall">Dodaj piłkę</button>
+  <p>Punkty: <span id="score">0</span></p>
+</div>
+
+<script src="game.js"></script>
+
+</body>
+</html>
+<audio id="bounceSound" src="bounce.mp3"></audio>
